@@ -1,0 +1,11 @@
+.custom-submit{
+    background-color: #30708f;
+    border:none;
+    color:#ffffff;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius:5%;
+    -webkit-box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
+}

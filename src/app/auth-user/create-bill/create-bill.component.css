@@ -1,0 +1,42 @@
+.add-btn{
+    background-color: #3c763d;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10%;
+}
+.cart-container{
+    height: 300px;
+    overflow: none;
+    padding: 20px;
+}
+.cart-empty{
+    font-size: 3em;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: #3c763d;
+}
+.price-container{
+    font-size:1.5em;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    margin-top:1vw;
+}
+.checkout-btn{
+    background-color:#3c763d;
+    color:#ffffff;
+    border:none;
+    height: 80px;
+}
+thead{
+    background-color: #30708f;
+    color: #ffffff;
+}
+.table-size{
+    max-height: 280px !important;
+    overflow:auto !important; 
+}

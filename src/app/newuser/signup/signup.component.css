@@ -1,0 +1,18 @@
+.signup-btn{
+    background-color: #e41912;
+    border: 1px solid #ef0000;
+}
+.login-btn{
+    background-color: #04b85a;
+    border: 1px solid #079249;
+}
+input.ng-invalid.ng-touched {
+    border-color: #e41912;
+}
+.error-msg{
+    display: block;
+    font-size: 12px;
+    color:#ef0000;
+    padding: 0px;
+    margin : 0px auto 5px auto;
+}

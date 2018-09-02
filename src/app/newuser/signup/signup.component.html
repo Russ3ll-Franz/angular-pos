@@ -1,0 +1,46 @@
+<div class="row login-container">
+    <div class="col-md-4 col-sm-6 col-xs-8 col-md-offset-4 col-sm-offset-3 col-xs-offset-2 jumbotron">
+      <div class="row text-center">
+        <p>SIGNUP</p>
+      </div>
+      <form  [formGroup] = "signupForm" (ngSubmit) = "onSubmit()">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 form-group">
+            <label for="username">Email:</label>
+            <input type="text" 
+            class="form-control" 
+            name="email"
+            formControlName="email"
+            > 
+          </div>
+        </div>
+        <div class="error-msg row text-center"   
+        *ngIf = "signupForm.get('email').touched && !signupForm.get('email').valid">
+          The Username You Entered is not valid!
+        </div>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 form-group">
+            <label for="username">Password:</label>
+            <input type="password"
+              class="form-control" 
+              name="password" 
+              formControlName="password"
+              >
+          </div> 
+        </div>
+        <div class="error-msg row text-center" 
+        *ngIf = "signupForm.get('password').touched && !signupForm.get('password').valid"  >
+          The Password You Entered is not valid!
+        !</div>
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1 text-center">
+              <input type="button" class="login-page-btn signup-btn" (click)="loginClick($event)" value="Login">
+            </div>
+            <div class="col-sm-5 text-center">
+                <input type="submit"  class="login-page-btn login-btn" value="Sign up" >
+            </div>
+        </div>
+      </form>
+    </div>  
+  </div>
+  

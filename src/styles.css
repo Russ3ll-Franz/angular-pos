@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.login-container{
+    margin-top:7vw;
+}
+.login-page-btn{
+   
+    /* height: 45px; */
+    width: 100px;
+    color: #fafafa;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px #bcbcbc;
+}
+.custom-heading{
+    color: #30708f;
+    font-size: 20px;
+    border-bottom: 1px solid #3c763d;
+    letter-spacing:2px;
+    font-style: italic;
+    font-weight: 900;
+}
+.m-t-10{
+    margin-top: 10px !important;
+}
+.p-10{
+    padding: 10px;
+}

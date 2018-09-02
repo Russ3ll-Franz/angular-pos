@@ -1,0 +1,14 @@
+thead{
+    background-color: #30708f;
+    color: #ffffff;
+}
+th{
+    text-align: center !important;
+}
+.edit-btn{
+    border:none;
+    background-color: #3c763d;
+    color:#ffffff;
+    /* padding: 5px; */
+    width: 60px;
+}
